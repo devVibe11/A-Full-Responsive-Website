@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- lightgallery.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css"
+    />
+
+    <!-- swiperjs cd -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/scss/main.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#" class="logo">We<span>Build</span></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#projects">projects</a>
+        <a href="#pricing">pricing</a>
+        <a href="#contact">contact</a>
+        <a href="#blog">blog</a>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+      <!-- searchbar -->
+      <form action="" class="search-form">
+        <input type="search" name="" placeholder="search" id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <!-- loginform -->
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember-me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">create one</a></p>
+      </form>
+    </header>
+    <!-- contact info -->
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>phone number</h3>
+        <p>+123-456-7890</p>
+        <p>+222-888-9889</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>email address</h3>
+        <p>aashishc7578@gmail.com</p>
+        <p>ashshs@gmail.com</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-map-marker"></i>
+        <h3>office address</h3>
+        <p>mumbai-india-400410</p>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490_1280.jpg)
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>we provide best services</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                assumenda consectetur corrupti, quis distinctio saepe.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(/img/dream-house.jpg)
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>making dream come true</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                assumenda consectetur corrupti, quis distinctio saepe.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(/img/img1\ \(11\).jpg)
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>from concept to creation</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                assumenda consectetur corrupti, quis distinctio saepe.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+      <div class="row">
+        <div class="video">
+          <video src="video/vid.mp4" loop muted autoplay></video>
+        </div>
+        <div class="content">
+          <h3>We will provide you the best work you dreamt for</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex iusto
+            pariatur sequi labore eaque quia fugit ratione ipsa incidunt quod.
+          </p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>10+</h3>
+          <p>Years of experience</p>
+        </div>
+
+        <div class="box">
+          <h3>1500+</h3>
+          <p>Project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>790+</h3>
+          <p>Satisfied clients</p>
+        </div>
+
+        <div class="box">
+          <h3>450+</h3>
+          <p>active workers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services" id="services">
+      <h1 class="heading">Our services</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/pngegg33.jpeg" alt="" />
+          <h3>Building Construction</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/house.jpeg"
+            alt=""
+          />
+          <h3>House Renovation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/hr.jpeg"
+            alt=""
+          />
+          <h3>Architecture Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/ty.jpeg"
+            alt=""
+          />
+          <h3>Material Supply</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/cons.jpeg"
+            alt=""
+          />
+          <h3>Construction consultant</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/arc.jpeg"
+            alt=""
+          />
+          <h3>Interior Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/bud.jpeg"
+            alt=""
+          />
+          <h3>Building Maintenance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+
+        <div class="box">
+          <img
+            src="img/tt.jpeg"
+            alt=""
+          />
+          <h3>Building Renovation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            illum aspernatur pers
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- project section starts -->
+
+    <section class="projects" id="projects">
+      <h1 class="heading">our Projects</h1>
+
+      <div class="box-container">
+        <a href="/img/img1 (5).jpg" class="box">
+          <div class="image">
+            <img src="/img/img1 (5).jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="box">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="/img/img1 (4).jpg" class="box">
+          <div class="image">
+            <img src="/img/img1 (4).jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="img/img1 (6).jpg" class="box">
+          <div class="image">
+            <img src="img/img1 (6).jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="box">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="https://plus.unsplash.com/premium_photo-1684348962187-988fc3d7f024?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="box">
+          <div class="image">
+            <img src="https://plus.unsplash.com/premium_photo-1684348962187-988fc3d7f024?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dream Home</h3>
+              <p>Construction, Design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- project section ends -->
+
+    <!-- reviews section starts -->
+
+    <section class="reviews">
+      <h1 class="heading">Client Reviews</h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="data:image/jpeg;base64,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" alt="" />
+              <div class="info">
+                <h3>Sunder Pichai</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="https://www.jansatta.com/wp-content/uploads/2024/03/arvind-kejriwal-delhi-liquor-policy.jpg?w=768" alt="" />
+              <div class="info">
+                <h3>Arvind Kejriwal</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="https://imageio.forbes.com/specials-images/imageserve/5c7d7829a7ea434b351ba0b6/0x0.jpg?format=jpg&crop=1837,1839,x206,y250,safe&height=416&width=416&fit=bounds" alt="" />
+              <div class="info">
+                <h3>Mukesh Ambani</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+              <div class="info">
+                <h3>Ashish</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+              <div class="info">
+                <h3>John Doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              vero recusandae eligendi quidem odio voluptas mollitia totam qui
+              blanditiis assumenda, facere alias sint libero modi aliquam
+              pariatur temporibus sed ea!
+            </p>
+            <div class="user">
+              <img src="https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+              <div class="info">
+                <h3>John Doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section endss -->
+
+    <!-- pricing section starts -->
+
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Our pricing</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-home"></i>
+          <h3>Basic Plan</h3>
+          <div class="price"><span>$</span>250 <span>/mo/</span></div>
+          <div class="list">
+            <p>Interior Design</p>
+            <p>Refurbishment</p>
+            <p>Material Supply</p>
+            <p>Maintenence</p>
+            <p>24/7 Support</p>
+          </div>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-building"></i>
+          <h3>Premium Plan</h3>
+          <div class="price"><span>$</span>650 <span>/mo/</span></div>
+          <div class="list">
+            <p>Interior Design</p>
+            <p>Refurbishment</p>
+            <p>Material Supply</p>
+            <p>Maintenence</p>
+            <p>24/7 Support</p>
+          </div>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-city"></i>
+          <h3>Ultimate Plan</h3>
+          <div class="price"><span>$</span>1299 <span>/mo/</span></div>
+          <div class="list">
+            <p>Interior Design</p>
+            <p>Refurbishment</p>
+            <p>Material Supply</p>
+            <p>Maintenence</p>
+            <p>24/7 Support</p>
+          </div>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+
+      <div class="row" >
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510303648!2d76.76356891374634!3d28.644287353477026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1710265486376!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <input type="text" placeholder="name"  class="box">
+            <input type="email" placeholder="email"  class="box">
+            <input type="number" placeholder="phone"  class="box">
+            <textarea name="" placeholder="message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+    
+    <!-- blog section starts -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our blogs</h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/img/img1 (9).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/img/img1 (3).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/img/img1 (12).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/img/img1 (6).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="/img/img1 (7).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/img1 (2).jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam quis eum.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section emds -->
+
+    <!-- client logo section starts -->
+    
+    <section class="logo-container">
+
+        <div class="swiper logo-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"><img src="img/pngegg (1).png" alt=""></div>
+                <div class="swiper-slide slide"><img src="img/pngegg (2).png" alt=""></div>
+                <div class="swiper-slide slide"><img src="img/pngegg (3).png" alt=""></div>
+                <div class="swiper-slide slide"><img src="img/pngegg.png" alt=""></div>
+                <div class="swiper-slide slide"><img src="img/pngegg (2).png" alt=""></div>
+                <div class="swiper-slide slide"><img src="img/pngegg (3).png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- client logo section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="links">
+        <a class="btn" href="#home">home</a>
+        <a class="btn"href="#about">about</a>
+        <a class="btn"href="#services">services</a>
+        <a class="btn"href="#projects">projects</a>
+        <a class="btn"href="#pricing">pricing</a>
+        <a class="btn"href="#contact">contact</a>
+        <a class="btn"href="#blog">blog</a>
+        </div>
+
+        <div class="credit">Created by <span>Ashishwebdev</span> | all rights reserved!</div>
+    </section> 
+
+
+    <!-- footer section ends -->
+
+
+
+
+    <!-- lightgallery.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+    <!-- swiperjs cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
